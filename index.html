@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div id="d1">
+            <input type="text" id="txt1">
+            <button id="btnclr" class="bg" onclick="Clear()">Clear</button>
+            <button id="btnplus" class="bg" onclick="GetSign(this.innerText)">+</button>
+            <button id="btnminus" class="bg" onclick="GetSign(this.innerText)">-</button>
+            <button id="btndiv" class="bg" onclick="GetSign(this.innerText)">/</button>
+            <button id="btnmtply" class="bg" onclick="GetSign(this.innerText)">*</button>
+            <button id="btnequal" class="bg" onclick="Run()">=</button>
+            <button id="btn9" class="oprbg" onclick="GetVal9()">9</button>
+            <button id="btn8" class="oprbg" onclick="GetVal8()">8</button>
+            <button id="btn7" class="oprbg" onclick="GetVal7()">7</button>
+            <button id="btn6" class="oprbg" onclick="GetVal6()">6</button>
+            <button id="btn5" class="oprbg" onclick="GetVal5()">5</button>
+            <button id="btn4" class="oprbg" onclick="GetVal4()">4</button>
+            <button id="btn3" class="oprbg" onclick="GetVal3()">3</button>
+            <button id="btn2" class="oprbg" onclick="GetVal2()">2</button>
+            <button id="btn1" class="oprbg" onclick="GetVal1()">1</button>
+            <button id="btn0" class="oprbg" onclick="GetVal0()">0</button>
+        </div>
+    </body>
+    <script src="index.js"></script>
+</html>

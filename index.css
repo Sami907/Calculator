@@ -1,0 +1,222 @@
+body
+{
+    background-image: url(https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?w=2000);
+    background-size: cover;
+}
+
+#d1
+{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 290px;
+    left: 530px;
+    top: 100px;
+    position: absolute;
+}
+
+#txt1
+{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 255px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 1px 1px 10px black;
+}
+
+#btnclr
+{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    border-radius: 30px;
+    height: 33px;
+    width: 210px;
+}
+
+#btnplus
+{
+    position: absolute;
+    top: 60px;
+    left: 240px;
+    border-radius: 30px;
+    height: 33px;
+    width: 35px;
+}
+
+#btnminus
+{
+    position: absolute;
+    top: 100px;
+    left: 240px;
+    border-radius: 30px;
+    height: 33px;
+    width: 35px;
+}
+
+#btndiv
+{
+    position: absolute;
+    top: 140px;
+    left: 240px;
+    border-radius: 30px;
+    height: 33px;
+    width: 35px;
+}
+
+#btnmtply
+{
+    position: absolute;
+    top: 180px;
+    left: 240px;
+    border-radius: 30px;
+    height: 33px;
+    width: 35px;
+}
+
+#btnequal
+{
+    position: absolute;
+    top: 220px;
+    left: 240px;
+    border-radius: 30px;
+    height: 90px;
+    width: 35px;
+}
+
+#btn9
+{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+#btn8
+{
+    position: absolute;
+    top: 100px;
+    left: 105px;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+#btn7
+{
+    position: absolute;
+    top: 100px;
+    left: 183px;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+#btn6
+{
+    position: absolute;
+    top: 155px;
+    left: 20px;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+#btn5
+{
+    position: absolute;
+    top: 155px;
+    left: 105px;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+#btn4
+{
+    position: absolute;
+    top: 155px;
+    left: 183px;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+#btn3
+{
+    position: absolute;
+    top: 210px;
+    left: 20px;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+#btn2
+{
+    position: absolute;
+    top: 210px;
+    left: 105px;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+#btn1
+{
+    position: absolute;
+    top: 210px;
+    left: 183px;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+#btn0
+{
+    position: absolute;
+    top: 266px;
+    left: 105px;
+    border-radius: 30px;
+    height: 45px;
+    width: 45px;
+}
+
+button
+{
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+
+.bg
+{
+    box-shadow: 1px 1px 4px black;
+    background: rgb(195,34,34);
+    background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,187,45,1) 100%);
+    border: none;
+}
+
+.bg:hover
+{
+    background: rgb(253,187,45);
+    background: linear-gradient(0deg, rgba(253,187,45,1) 0%, rgba(195,34,34,1) 100%);
+}
+
+.oprbg
+{
+    border: none;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0.8715861344537815) 0%, rgba(175,168,168,1) 100%);
+}
+
+.oprbg:hover
+{
+    background: rgb(175,168,168);
+    background: linear-gradient(0deg, rgba(175,168,168,0.8715861344537815) 0%, rgba(255,255,255,1) 100%);
+}
+
