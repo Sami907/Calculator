@@ -27,7 +27,7 @@ function Run()
 
     document.getElementById("txt1").value = result
 }
-
+ 
 function GetSign(opr)
 {
     oprsign = opr;
@@ -52,53 +52,7 @@ function Clear()
 
 Clear();
 
-
-function GetVal9()
+function GetVal(Id)
 {
-    document.getElementById("txt1").value += document.getElementById("btn9").innerText
-}
-
-function GetVal8()
-{
-    document.getElementById("txt1").value += document.getElementById("btn8").innerText
-}
-
-function GetVal7()
-{
-    document.getElementById("txt1").value += document.getElementById("btn7").innerText
-}
-
-function GetVal6()
-{
-    document.getElementById("txt1").value += document.getElementById("btn6").innerText
-}
-
-function GetVal5()
-{
-    document.getElementById("txt1").value += document.getElementById("btn5").innerText
-}
-
-function GetVal4()
-{
-    document.getElementById("txt1").value += document.getElementById("btn4").innerText
-}
-
-function GetVal3()
-{
-    document.getElementById("txt1").value += document.getElementById("btn3").innerText
-}
-
-function GetVal2()
-{
-    document.getElementById("txt1").value += document.getElementById("btn2").innerText
-}
-
-function GetVal1()
-{
-    document.getElementById("txt1").value += document.getElementById("btn1").innerText
-}
-
-function GetVal0()
-{
-    document.getElementById("txt1").value += document.getElementById("btn0").innerText
+    document.getElementById("txt1").value += document.getElementById(Id).innerText;
 }
